@@ -27,6 +27,7 @@ export const store = new Vuex.Store({
   },
   actions: {
     register: function (store, user) {
+      console.log('----store----', user)
       // axios.post('http://localhost:3000/signup', {
       axios.post('https://fancy-todos-api.herokuapp.com/signup', {
         username: user.username,

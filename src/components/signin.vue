@@ -114,6 +114,7 @@ export default {
     },
     join: function (user) {
       this.show = false
+      console.log(user)
       this.$store.dispatch('register', user)
       this.user = {}
     }
