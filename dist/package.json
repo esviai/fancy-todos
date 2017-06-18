@@ -1,0 +1,11 @@
+{
+  "name": "fancy-to-dos",
+  "version": "1.0.0",
+  "description": "a vue project",
+  "author": "Shabrina V. Inmas",
+  "private": true,
+  "scripts": {
+   "postinstall": "npm install express",
+   "start": "node server.js"
+  }
+}
